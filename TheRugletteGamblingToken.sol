@@ -363,7 +363,7 @@ contract TheRugletteGamblingToken is Context, IBEP20, Ownable {
 
   constructor() public {
     _name = "The Ruglette Gambling Token";
-    _symbol = "TRGT";
+    _symbol = "GUNS";
     _decimals = 9;
     _totalSupply = 10000 * (10 ** uint256(_decimals));
     _balances[msg.sender] = _totalSupply;
