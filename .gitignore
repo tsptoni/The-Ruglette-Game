@@ -1,6 +1,9 @@
 /node_modules/
 /build/
 
+# WebStorm IDE
+.idea/
+
 node_modules
 
 #Buidler files
